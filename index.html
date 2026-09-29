@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexusAI — Autonomous Intelligence & Enterprise Workflow Engine</title>
+  <meta name="description" content="Accelerate enterprise engineering with NexusAI. Deploy autonomous cognitive pipelines, low-latency edge inference, and zero-trust AI infrastructure.">
+  <meta name="keywords" content="AI, Artificial Intelligence, SaaS, Cloud Automation, Machine Learning, Enterprise">
+  <meta name="theme-color" content="#0B0F19">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Background Glow Orbs -->
+  <div class="ambient-glow glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow glow-middle" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom" aria-hidden="true"></div>
+
+  <!-- 1. HEADER / NAVIGATION -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-container" aria-label="Main Navigation">
+      <!-- Logo -->
+      <a href="#home" class="brand-logo" id="brand-logo" aria-label="NexusAI Homepage">
+        <div class="logo-symbol">
+          <i data-lucide="cpu" class="logo-icon"></i>
+          <span class="logo-pulse"></span>
+        </div>
+        <span class="brand-name">Nexus<span class="brand-accent">AI</span></span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active" data-nav="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-nav="about">About</a></li>
+        <li><a href="#features" class="nav-link" data-nav="features">Features</a></li>
+        <li><a href="#contact" class="nav-link" data-nav="contact">Contact</a></li>
+      </ul>
+
+      <!-- Nav CTA & Mobile Menu Toggle -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-outline nav-btn" id="nav-cta-btn">
+          <span>Get Started</span>
+          <i data-lucide="arrow-right" class="btn-icon"></i>
+        </a>
+        
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-nav-drawer" id="mobile-nav-drawer" aria-hidden="true">
+      <ul class="mobile-nav-list">
+        <li><a href="#home" class="mobile-nav-link" data-nav="home"><i data-lucide="home"></i> Home</a></li>
+        <li><a href="#about" class="mobile-nav-link" data-nav="about"><i data-lucide="info"></i> About</a></li>
+        <li><a href="#features" class="mobile-nav-link" data-nav="features"><i data-lucide="layers"></i> Features</a></li>
+        <li><a href="#contact" class="mobile-nav-link" data-nav="contact"><i data-lucide="mail"></i> Contact</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <a href="#contact" class="btn btn-primary btn-block mobile-cta" id="mobile-cta-btn">
+          <span>Get Started Free</span>
+          <i data-lucide="sparkles" class="btn-icon"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- 2. HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <!-- Hero Content (Text & CTAs) -->
+        <div class="hero-content">
+          <div class="announcement-badge" id="hero-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Nexus 3.0 Platform Release</span>
+            <i data-lucide="chevron-right" class="badge-icon"></i>
+          </div>
+
+          <h1 class="hero-title" id="hero-heading">
+            Scale Your Intelligence With <span class="gradient-text">Next-Gen AI</span> Workflows
+          </h1>
+
+          <p class="hero-description" id="hero-desc">
+            Orchestrate enterprise neural pipelines, execute sub-millisecond edge inference, and eliminate manual workflows with our autonomous cognitive cloud engine.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#contact" class="btn btn-primary btn-lg" id="hero-primary-cta">
+              <span>Start Free Trial</span>
+              <i data-lucide="arrow-right" class="btn-icon"></i>
+            </a>
+            <a href="#features" class="btn btn-secondary btn-lg" id="hero-secondary-cta">
+              <i data-lucide="play-circle" class="btn-icon-left"></i>
+              <span>Explore Features</span>
+            </a>
+          </div>
+
+          <!-- Trust Badges / Social Proof -->
+          <div class="hero-social-proof">
+            <div class="avatars-cluster">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80" alt="Active user avatar" class="avatar-img">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80" alt="Active user avatar" class="avatar-img">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80" alt="Active user avatar" class="avatar-img">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80" alt="Active user avatar" class="avatar-img">
+            </div>
+            <div class="proof-text">
+              <div class="stars">
+                <i data-lucide="star" class="star-icon"></i>
+                <i data-lucide="star" class="star-icon"></i>
+                <i data-lucide="star" class="star-icon"></i>
+                <i data-lucide="star" class="star-icon"></i>
+                <i data-lucide="star" class="star-icon"></i>
+              </div>
+              <span>Trusted by <strong>10,000+</strong> engineering teams worldwide</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Interactive SaaS Mockup -->
+        <div class="hero-visual" id="hero-visual">
+          <div class="dashboard-mockup">
+            <!-- Mockup Header -->
+            <div class="mockup-header">
+              <div class="window-controls">
+                <span class="control-dot dot-red"></span>
+                <span class="control-dot dot-yellow"></span>
+                <span class="control-dot dot-green"></span>
+              </div>
+              <div class="mockup-address-bar">
+                <i data-lucide="shield-check" class="secure-icon"></i>
+                <span>nexus-cloud.internal/v3/telemetry</span>
+              </div>
+              <div class="mockup-status">
+                <span class="status-indicator"></span>
+                <span class="status-label">Live Mesh Active</span>
+              </div>
+            </div>
+
+            <!-- Mockup Body Content -->
+            <div class="mockup-content">
+              <!-- Upper Stats Row -->
+              <div class="mockup-stats-row">
+                <div class="mini-stat-card">
+                  <div class="mini-stat-header">
+                    <span class="stat-caption">Throughput</span>
+                    <i data-lucide="zap" class="stat-mini-icon text-cyan"></i>
+                  </div>
+                  <div class="stat-value">1.84M <span class="stat-unit">ops/s</span></div>
+                  <div class="stat-trend trend-positive">
+                    <i data-lucide="trending-up" class="trend-icon"></i> +28.4% this week
+                  </div>
+                </div>
+
+                <div class="mini-stat-card">
+                  <div class="mini-stat-header">
+                    <span class="stat-caption">P99 Latency</span>
+                    <i data-lucide="gauge" class="stat-mini-icon text-purple"></i>
+                  </div>
+                  <div class="stat-value">8.4 <span class="stat-unit">ms</span></div>
+                  <div class="stat-trend trend-positive">
+                    <i data-lucide="arrow-down-right" class="trend-icon"></i> -34% latency drop
+                  </div>
+                </div>
+
+                <div class="mini-stat-card">
+                  <div class="mini-stat-header">
+                    <span class="stat-caption">Model Accuracy</span>
+                    <i data-lucide="target" class="stat-mini-icon text-emerald"></i>
+                  </div>
+                  <div class="stat-value">99.94<span class="stat-unit">%</span></div>
+                  <div class="stat-trend trend-neutral">
+                    <i data-lucide="check" class="trend-icon"></i> Continuous validation
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pipeline Flow Visualizer -->
+              <div class="pipeline-visualizer">
+                <div class="pipeline-header">
+                  <span class="pipeline-title"><i data-lucide="workflow" class="pipeline-icon"></i> Neural Pipeline Graph: Orchestration Engine</span>
+                  <span class="pipeline-state">Cluster: US-East-1 (Healthy)</span>
+                </div>
+                
+                <div class="pipeline-nodes">
+                  <div class="node-box node-active">
+                    <div class="node-icon"><i data-lucide="database"></i></div>
+                    <span class="node-name">Data Ingest</span>
+                    <span class="node-metric">420 MB/s</span>
+                  </div>
+                  <div class="node-connector">
+                    <span class="connector-line"></span>
+                    <span class="connector-pulse"></span>
+                  </div>
+
+                  <div class="node-box node-active">
+                    <div class="node-icon"><i data-lucide="cpu"></i></div>
+                    <span class="node-name">LLM Engine</span>
+                    <span class="node-metric">9.8k tok/s</span>
+                  </div>
+                  <div class="node-connector">
+                    <span class="connector-line"></span>
+                    <span class="connector-pulse pulse-delay-1"></span>
+                  </div>
+
+                  <div class="node-box node-active node-highlight">
+                    <div class="node-icon"><i data-lucide="shield"></i></div>
+                    <span class="node-name">Guardrail Filter</span>
+                    <span class="node-metric">Zero-Trust</span>
+                  </div>
+                  <div class="node-connector">
+                    <span class="connector-line"></span>
+                    <span class="connector-pulse pulse-delay-2"></span>
+                  </div>
+
+                  <div class="node-box node-active">
+                    <div class="node-icon"><i data-lucide="send"></i></div>
+                    <span class="node-name">Edge Deploy</span>
+                    <span class="node-metric">142 Regions</span>
+                  </div>
+                </div>
+
+                <!-- Live Stream Console Log -->
+                <div class="console-box">
+                  <div class="console-header">
+                    <i data-lucide="terminal" class="term-icon"></i>
+                    <span>Real-Time Ingestion Feed</span>
+                  </div>
+                  <div class="console-lines" id="console-stream">
+                    <div class="console-line"><span class="log-time">[16:24:02]</span> <span class="log-tag tag-info">SYS</span> Routing incoming vector chunks to cluster us-east-1</div>
+                    <div class="console-line"><span class="log-time">[16:24:03]</span> <span class="log-tag tag-success">OK</span> Dynamic quantization applied: latency reduced to 8.4ms</div>
+                    <div class="console-line"><span class="log-time">[16:24:05]</span> <span class="log-tag tag-accent">AUTO</span> Consensus verified across 142 edge nodes</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Badge 1 -->
+            <div class="floating-badge badge-top-right">
+              <div class="badge-icon-wrap bg-purple">
+                <i data-lucide="sparkles"></i>
+              </div>
+              <div class="badge-info">
+                <span class="badge-title">Autonomous Optimization</span>
+                <span class="badge-subtitle">Real-time dynamic weights</span>
+              </div>
+            </div>
+
+            <!-- Floating Badge 2 -->
+            <div class="floating-badge badge-bottom-left">
+              <div class="badge-icon-wrap bg-cyan">
+                <i data-lucide="shield-alert"></i>
+              </div>
+              <div class="badge-info">
+                <span class="badge-title">Enterprise Security</span>
+                <span class="badge-subtitle">SOC-2 Type II Certified</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. ABOUT SECTION -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-heading text-center">
+          <div class="section-tag" id="about-tag">
+            <i data-lucide="info" class="tag-icon"></i>
+            <span>WHO WE ARE</span>
+          </div>
+          <h2 class="section-title">Architected for Speed. Built for Enterprise Reliability.</h2>
+          <p class="section-subtitle">
+            We empower developers and infrastructure leaders to deploy autonomous intelligence without the operational friction of legacy systems.
+          </p>
+        </div>
+
+        <!-- Two-Column Layout -->
+        <div class="about-grid">
+          <!-- Left Column: Story & Narrative -->
+          <div class="about-story-col">
+            <h3 class="about-story-title">
+              Redefining How Modern Engineering Teams Deploy Intelligence
+            </h3>
+            
+            <p class="about-text">
+              NexusAI was founded to solve a pervasive roadblock in modern tech: while machine learning models advance exponentially, the infrastructure required to reliably orchestrate, secure, and operate them remains brittle and fragmented.
+            </p>
+            
+            <p class="about-text">
+              Our unified cloud platform bridges the divide between research-grade artificial intelligence and mission-critical production reliability. By automating edge distribution, continuous telemetry, and zero-trust security guardrails, we unlock up to 10x developer productivity.
+            </p>
+
+            <ul class="about-checklist">
+              <li class="check-item">
+                <div class="check-icon"><i data-lucide="check-circle-2"></i></div>
+                <span><strong>Instant Integration:</strong> Connect to existing CI/CD stacks and cloud clusters in minutes.</span>
+              </li>
+              <li class="check-item">
+                <div class="check-icon"><i data-lucide="check-circle-2"></i></div>
+                <span><strong>Self-Healing Infrastructure:</strong> Automatic model retraining triggers and failover mechanisms.</span>
+              </li>
+              <li class="check-item">
+                <div class="check-icon"><i data-lucide="check-circle-2"></i></div>
+                <span><strong>Zero Vendor Lock-in:</strong> Open standard protocols compatible with all major LLMs and weights.</span>
+              </li>
+            </ul>
+
+            <div class="about-cta-wrapper">
+              <a href="#contact" class="btn btn-outline" id="about-learn-more">
+                <span>Request Technical Whitepaper</span>
+                <i data-lucide="file-text" class="btn-icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Statistics Cards -->
+          <div class="about-stats-col">
+            <div class="stats-grid">
+              <!-- Stat Card 1 -->
+              <div class="stat-card">
+                <div class="stat-icon-wrapper bg-indigo-subtle">
+                  <i data-lucide="activity" class="stat-icon text-indigo"></i>
+                </div>
+                <div class="stat-number-wrapper">
+                  <span class="stat-counter" data-target="99.99">0</span>
+                  <span class="stat-symbol">%</span>
+                </div>
+                <h4 class="stat-title">Uptime SLA Guarantee</h4>
+                <p class="stat-desc">Multi-region active-active topology guarantees uninterrupted high-throughput availability.</p>
+              </div>
+
+              <!-- Stat Card 2 -->
+              <div class="stat-card">
+                <div class="stat-icon-wrapper bg-cyan-subtle">
+                  <i data-lucide="zap" class="stat-icon text-cyan"></i>
+                </div>
+                <div class="stat-number-wrapper">
+                  <span class="stat-counter" data-target="10">0</span>
+                  <span class="stat-symbol">x</span>
+                </div>
+                <h4 class="stat-title">Faster Pipeline Deployment</h4>
+                <p class="stat-desc">Accelerate model staging from weeks to minutes using autonomous validation templates.</p>
+              </div>
+
+              <!-- Stat Card 3 -->
+              <div class="stat-card">
+                <div class="stat-icon-wrapper bg-emerald-subtle">
+                  <i data-lucide="users" class="stat-icon text-emerald"></i>
+                </div>
+                <div class="stat-number-wrapper">
+                  <span class="stat-counter" data-target="250">0</span>
+                  <span class="stat-symbol">K+</span>
+                </div>
+                <h4 class="stat-title">Active Global Developers</h4>
+                <p class="stat-desc">Thriving developer community building scalable applications on top of the Nexus core engine.</p>
+              </div>
+
+              <!-- Stat Card 4 -->
+              <div class="stat-card">
+                <div class="stat-icon-wrapper bg-purple-subtle">
+                  <i data-lucide="globe-2" class="stat-icon text-purple"></i>
+                </div>
+                <div class="stat-number-wrapper">
+                  <span class="stat-counter" data-target="140">0</span>
+                  <span class="stat-symbol">+</span>
+                </div>
+                <h4 class="stat-title">Edge Acceleration Points</h4>
+                <p class="stat-desc">Inference executed within 15ms of end users across major metropolitan zones worldwide.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. FEATURES SECTION (EXACTLY 3 CARDS) -->
+    <section class="features-section" id="features">
+      <div class="container">
+        <!-- Section Heading -->
+        <div class="section-heading text-center">
+          <div class="section-tag" id="features-tag">
+            <i data-lucide="sparkles" class="tag-icon"></i>
+            <span>CORE CAPABILITIES</span>
+          </div>
+          <h2 class="section-title">Engineered For Unrivaled Scale & Performance</h2>
+          <p class="section-subtitle">
+            Three core pillars designed to eliminate architectural bottlenecks and elevate your autonomous machine learning infrastructure.
+          </p>
+        </div>
+
+        <!-- 3 Feature Cards Grid -->
+        <div class="features-grid">
+          <!-- Feature Card 1 -->
+          <article class="feature-card" id="feature-card-1">
+            <div class="feature-card-glow"></div>
+            <div class="feature-card-header">
+              <div class="feature-icon-box bg-purple-gradient">
+                <i data-lucide="workflow" class="feature-icon"></i>
+              </div>
+              <span class="feature-badge">Automation</span>
+            </div>
+            
+            <h3 class="feature-title">Autonomous Neural Pipelines</h3>
+            <p class="feature-description">
+              Dynamically compose, branch, and optimize multi-model graphs. Built-in cognitive self-healing reroutes data traffic if token latency spikes or upstream endpoints experience degradation.
+            </p>
+
+            <ul class="feature-points">
+              <li><i data-lucide="check" class="point-icon"></i> Dynamic prompt & weight graph routing</li>
+              <li><i data-lucide="check" class="point-icon"></i> Automated fallbacks & semantic retry logic</li>
+              <li><i data-lucide="check" class="point-icon"></i> In-flight payload transformations</li>
+            </ul>
+
+            <div class="feature-card-footer">
+              <a href="#contact" class="feature-learn-link">
+                <span>Explore Pipeline Specs</span>
+                <i data-lucide="arrow-right" class="link-arrow"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Feature Card 2 -->
+          <article class="feature-card" id="feature-card-2">
+            <div class="feature-card-glow"></div>
+            <div class="feature-card-header">
+              <div class="feature-icon-box bg-cyan-gradient">
+                <i data-lucide="cpu" class="feature-icon"></i>
+              </div>
+              <span class="feature-badge">Performance</span>
+            </div>
+            
+            <h3 class="feature-title">Zero-Latency Distributed Mesh</h3>
+            <p class="feature-description">
+              Distribute model weights and embeddings across 140+ global POPs. Our intelligent semantic caching and tensor quantization deliver sub-10ms response times globally.
+            </p>
+
+            <ul class="feature-points">
+              <li><i data-lucide="check" class="point-icon"></i> Sub-10ms global cold-start warmups</li>
+              <li><i data-lucide="check" class="point-icon"></i> Semantic vector cache hit rates up to 68%</li>
+              <li><i data-lucide="check" class="point-icon"></i> Automatic geographic load rebalancing</li>
+            </ul>
+
+            <div class="feature-card-footer">
+              <a href="#contact" class="feature-learn-link">
+                <span>Explore Global Mesh</span>
+                <i data-lucide="arrow-right" class="link-arrow"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Feature Card 3 -->
+          <article class="feature-card" id="feature-card-3">
+            <div class="feature-card-glow"></div>
+            <div class="feature-card-header">
+              <div class="feature-icon-box bg-indigo-gradient">
+                <i data-lucide="shield-check" class="feature-icon"></i>
+              </div>
+              <span class="feature-badge">Security</span>
+            </div>
+            
+            <h3 class="feature-title">Enterprise Zero-Trust Governance</h3>
+            <p class="feature-description">
+              Protect proprietary intellectual property and client datasets with real-time prompt injection prevention, granular role-based access control, and end-to-end homomorphic encryption.
+            </p>
+
+            <ul class="feature-points">
+              <li><i data-lucide="check" class="point-icon"></i> SOC2 Type II, HIPAA, & GDPR compliant</li>
+              <li><i data-lucide="check" class="point-icon"></i> Live PII redaction & sanitization layers</li>
+              <li><i data-lucide="check" class="point-icon"></i> Tamper-proof cryptographic audit trail</li>
+            </ul>
+
+            <div class="feature-card-footer">
+              <a href="#contact" class="feature-learn-link">
+                <span>Explore Compliance Framework</span>
+                <i data-lucide="arrow-right" class="link-arrow"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <!-- Section Heading -->
+        <div class="section-heading text-center">
+          <div class="section-tag" id="contact-tag">
+            <i data-lucide="mail" class="tag-icon"></i>
+            <span>GET IN TOUCH</span>
+          </div>
+          <h2 class="section-title">Ready to Elevate Your AI Infrastructure?</h2>
+          <p class="section-subtitle">
+            Reach out to our solution architects for customized platform access, pricing tiers, or high-volume enterprise deployments.
+          </p>
+        </div>
+
+        <!-- Contact Box Layout (Info & Form) -->
+        <div class="contact-wrapper">
+          <!-- Left: Info & Trust Side -->
+          <div class="contact-info-panel">
+            <div class="info-badge">Enterprise Consultation</div>
+            <h3 class="info-panel-title">Let’s engineer something exceptional together.</h3>
+            <p class="info-panel-desc">
+              Have questions about security certification, custom model adapters, or migration assistance? Our engineering lead will respond within 2 business hours.
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-method-item">
+                <div class="method-icon-box">
+                  <i data-lucide="mail"></i>
+                </div>
+                <div>
+                  <span class="method-label">Direct Inquiries</span>
+                  <a href="mailto:solutions@nexusai.cloud" class="method-val">solutions@nexusai.cloud</a>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="method-icon-box">
+                  <i data-lucide="phone-call"></i>
+                </div>
+                <div>
+                  <span class="method-label">Enterprise Desk</span>
+                  <a href="tel:+18005550199" class="method-val">+1 (800) 555-0199</a>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="method-icon-box">
+                  <i data-lucide="map-pin"></i>
+                </div>
+                <div>
+                  <span class="method-label">Headquarters</span>
+                  <span class="method-val">500 Howard Street, San Francisco, CA</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="guarantee-box">
+              <i data-lucide="lock" class="guarantee-icon"></i>
+              <p>Your data is strictly confidential. We never train public foundation models on your submitted inputs.</p>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Form with JavaScript Validation -->
+          <div class="contact-form-panel">
+            <form id="contact-form" class="contact-form" novalidate>
+              <!-- Success Banner (hidden by default) -->
+              <div class="form-banner banner-success" id="form-success-banner" role="alert" aria-live="polite">
+                <div class="banner-icon-box">
+                  <i data-lucide="check-circle-2"></i>
+                </div>
+                <div class="banner-text">
+                  <h4 class="banner-title">Inquiry Sent Successfully!</h4>
+                  <p class="banner-desc">Thank you for contacting us. A senior infrastructure specialist has received your message and will reach out shortly.</p>
+                </div>
+              </div>
+
+              <!-- General Error Banner (hidden by default) -->
+              <div class="form-banner banner-error" id="form-general-error" role="alert" aria-live="polite">
+                <div class="banner-icon-box">
+                  <i data-lucide="alert-circle"></i>
+                </div>
+                <div class="banner-text">
+                  <h4 class="banner-title">Please Fix The Form Errors</h4>
+                  <p class="banner-desc">Review the highlighted fields below and provide valid information to proceed.</p>
+                </div>
+              </div>
+
+              <!-- Name Field -->
+              <div class="form-group" id="group-name">
+                <label for="contact-name" class="form-label">
+                  <span>Full Name</span>
+                  <span class="required-mark">*</span>
+                </label>
+                <div class="input-wrapper">
+                  <i data-lucide="user" class="input-icon"></i>
+                  <input 
+                    type="text" 
+                    id="contact-name" 
+                    name="name" 
+                    class="form-input" 
+                    placeholder="e.g. Alex Mercer"
+                    autocomplete="name"
+                    required
+                  >
+                  <span class="input-status-icon" aria-hidden="true"></span>
+                </div>
+                <span class="field-error-msg" id="error-name" role="alert"></span>
+              </div>
+
+              <!-- Email Field -->
+              <div class="form-group" id="group-email">
+                <label for="contact-email" class="form-label">
+                  <span>Work Email</span>
+                  <span class="required-mark">*</span>
+                </label>
+                <div class="input-wrapper">
+                  <i data-lucide="at-sign" class="input-icon"></i>
+                  <input 
+                    type="email" 
+                    id="contact-email" 
+                    name="email" 
+                    class="form-input" 
+                    placeholder="alex@company.com"
+                    autocomplete="email"
+                    required
+                  >
+                  <span class="input-status-icon" aria-hidden="true"></span>
+                </div>
+                <span class="field-error-msg" id="error-email" role="alert"></span>
+              </div>
+
+              <!-- Message Field -->
+              <div class="form-group" id="group-message">
+                <label for="contact-message" class="form-label">
+                  <span>Project Message</span>
+                  <span class="required-mark">*</span>
+                </label>
+                <div class="input-wrapper textarea-wrapper">
+                  <i data-lucide="message-square" class="input-icon textarea-icon"></i>
+                  <textarea 
+                    id="contact-message" 
+                    name="message" 
+                    class="form-input form-textarea" 
+                    rows="5" 
+                    placeholder="Describe your current infrastructure bottlenecks or architecture requirements..."
+                    required
+                  ></textarea>
+                </div>
+                <div class="textarea-bottom">
+                  <span class="field-error-msg" id="error-message" role="alert"></span>
+                  <span class="char-counter" id="char-counter">0 / 500</span>
+                </div>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block submit-btn" id="submit-button">
+                <span class="btn-spinner" id="btn-spinner" aria-hidden="true"></span>
+                <span class="btn-text" id="btn-text">Send Message</span>
+                <i data-lucide="send" class="btn-icon" id="btn-icon-send"></i>
+              </button>
+
+              <div class="form-privacy-note">
+                <i data-lucide="shield-check" class="privacy-icon"></i>
+                <span>Protected by 256-bit encryption. Zero telemetry spam guaranteed.</span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 6. FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo footer-logo">
+            <div class="logo-symbol">
+              <i data-lucide="cpu" class="logo-icon"></i>
+            </div>
+            <span class="brand-name">Nexus<span class="brand-accent">AI</span></span>
+          </a>
+          <p class="footer-tagline">
+            Next-generation autonomous intelligence cloud platform engineered for mission-critical enterprise workloads.
+          </p>
+          <div class="system-status-pill">
+            <span class="status-pulse-dot"></span>
+            <span>All Global Mesh Systems Operational</span>
+          </div>
+        </div>
+
+        <div class="footer-nav-col">
+          <h5 class="footer-heading">Navigation</h5>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Nexus</a></li>
+            <li><a href="#features">Core Features</a></li>
+            <li><a href="#contact">Get In Touch</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h5 class="footer-heading">Solutions</h5>
+          <ul class="footer-links">
+            <li><a href="#features">Autonomous Pipelines</a></li>
+            <li><a href="#features">Distributed Mesh</a></li>
+            <li><a href="#features">Zero-Trust Security</a></li>
+            <li><a href="#about">Global Edge Inference</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h5 class="footer-heading">Connect</h5>
+          <ul class="social-links">
+            <li><a href="#" aria-label="GitHub Repository" class="social-btn"><i data-lucide="github"></i></a></li>
+            <li><a href="#" aria-label="Twitter Profile" class="social-btn"><i data-lucide="twitter"></i></a></li>
+            <li><a href="#" aria-label="LinkedIn Company" class="social-btn"><i data-lucide="linkedin"></i></a></li>
+            <li><a href="#" aria-label="Discord Community" class="social-btn"><i data-lucide="message-circle"></i></a></li>
+          </ul>
+          <span class="compliance-text">SOC2 Type II & ISO 27001 Certified</span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> NexusAI Technologies Inc. All rights reserved. Designed with precision.
+        </p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <span class="legal-dot">•</span>
+          <a href="#">Terms of Service</a>
+          <span class="legal-dot">•</span>
+          <a href="#">Security Overview</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Floating Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Scroll back to top of page">
+    <i data-lucide="chevron-up"></i>
+  </button>
+
+  <!-- Notification Toast Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- JavaScript Script -->
+  <script src="js/main.js"></script>
+</body>
+</html>
